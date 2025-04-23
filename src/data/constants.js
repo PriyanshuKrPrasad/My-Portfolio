@@ -1,19 +1,26 @@
+import ChatAppImg from "../images/Chatapp.png";
+
+import Analyzit from "../images/Analyzeit.png";
+import Ex from "../images/Exercise.png";
+import Expense from "../images/Expensetracker.png";
+import Resume from "../images/Resumebuilder.png";
+import mobile from "../images/mobileprediction.png";
 export const Bio = {
-  name: "Aryan Raj",
+  name: "Anurag Chandra",
   roles: [  
-    "App Developer",
-    "Full Stack Developer",
+    
+    "Full Stack Web Developer",
     "Machine Learner",
     "Programmer",
   ],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
-  github: "https://github.com/aryan2882",
+  github: "https://github.com/AnuragChandra16",
   resume:
-    "https://drive.google.com/drive/folders/1LKHsc7a686duDnHD-PEHrTop4nghlJKH",
-  linkedin: "https://www.linkedin.com/in/aryan-raj-b11939274/",
-  twitter: "https://twitter.com",
-  insta: "https://www.instagram.com/",
+    "https://drive.google.com/file/d/1_B6UH0tzrwANmCqKcQp4LN-ZabclxnWh/view?usp=sharing",
+  linkedin: "https://www.linkedin.com/in/anurag-chandra-485876267/",
+  twitter: "https://x.com/AnuragChan37994",
+  insta: "https://www.instagram.com/anurag_16_01/",
   facebook: "https://www.facebook.com/",
 };
 
@@ -55,11 +62,7 @@ export const skills = [
         image:
           "data:image/png;base64,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",
       },
-      {
-        name: "Flutter",
-        image:
-          "https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png",
-      },
+      
     ],
   },
   {
@@ -110,26 +113,26 @@ export const skills = [
       },
     ],
   },
-  {
-    title: "Android",
-    skills: [
-      {
-        name: "Java",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
-      },
-      {
-        name: "Kotlin",
-        image:
-          "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
-      },
-      {
-        name: "Android Studio",
-        image:
-          "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
-      },
-    ],
-  },
+  // {
+  //   title: "Android",
+  //   skills: [
+  //     {
+  //       name: "Java",
+  //       image:
+  //         "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+  //     },
+  //     {
+  //       name: "Kotlin",
+  //       image:
+  //         "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
+  //     },
+  //     {
+  //       name: "Android Studio",
+  //       image:
+  //         "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
+  //     },
+  //   ],
+  // },
   {
     title: "Machine Learning",
     skills: [
@@ -138,16 +141,7 @@ export const skills = [
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
       },
-      {
-        name: "Tenserflow",
-        image:
-          "https://static-00.iconduck.com/assets.00/tensorflow-icon-1911x2048-1m2s54vn.png",
-      },
-      {
-        name: "Keras",
-        image:
-          "https://miro.medium.com/v2/resize:fit:600/1*DKu_54iqz6C-p6ndo7rO3g.png",
-      },
+    
       {
         name: "Jupyter",
         image:
@@ -188,11 +182,7 @@ export const skills = [
         image:
           "https://static-00.iconduck.com/assets.00/postman-icon-497x512-beb7sy75.png",
       },
-      {
-        name: "Figma",
-        image:
-          "https://s3-alpha.figma.com/hub/file/1481185752/fa4cd070-6a79-4e1b-b079-8b9b76408595-cover.png",
-      },
+     
     ],
   },
 ];
@@ -200,36 +190,39 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://media.licdn.com/dms/image/D5603AQHjyc5u3DYYyQ/profile-displayphoto-shrink_200_200/0/1687411000525?e=2147483647&v=beta&t=hb14rNvy7J5Ct7sIEEDHO8ax9aNYsMvXlSBg8RSdkt0",
-    role: "Research Intern",
-    company: "VIT Chennai",
-    date: "May 2024 - July 2024",
-    desc: "This research internship in healthcare focuses on integrating a Large Language Model (LLM) to assist patients with post-recovery treatment. The project aims to provide support and guidance to patients during their recovery phase. My role involves ensuring that the LLM offers accurate and helpful information. This integration is crucial for enhancing patient care and recovery outcomes.",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv_5Nuphv0sUr5p6S3mvKCW0e8FFO03lsVDUpiWPmbvjgEBqMNrFrnJBozK4DYD75U4Qw&usqp=CAU",
+    role: "Website Developer Intern",
+    company: "Zidio Development",
+    date: "July 2024 - September 2024",
+    desc: "This Website development internship focuses on developing responsive and user-friendly web applications, utilizing modern frameworks and technologies. I created a dynamic ResumeBuilder over here. My project was selected one of best website among other interns",
     skills: [
-      "LLM",
-      "Gen AI",
-      "ML",
+      "React JS",
+      "Mongo db",
+      "Node js",
+      "Express Js",
       "HTML",
       "CSS",
-      "JavaScript",
+      "Vercel/Render"
     ],
-    doc: "https://drive.google.com/file/d/1j8zcnxww1cnXYVe12Q7vC4Ia1IUz-vd1/view?usp=sharing",
+    
   },
   {
     id: 1,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSAHfP-lk1FtqQ4HcCd4PTG4L4DxUlhijgag&s",
-    role: "Android Development",
-    company: "Lending Buddha",
-    date: "Oct 2024 - Dec 2024",
-    desc: "Here I built and enhanced mobile applications.I improved my skills in UI/UX design, API integration, and performance optimization. This experience helped me gain hands-on expertise in developing user-friendly and efficient apps.",
+    img: "https://avatars.githubusercontent.com/u/110592010?s=280&v=4",
+    role: "Technical Lead",
+    company: "IOThinc VIT Chennai",
+    date: "Oct 2024 - Present",
+    desc: "Here I led a team of developers to design and implement innovative IoT solutions. I contribute to both IoT product designs and software development",
     skills: [
-      "Flutter",
-      "Material UI",
-      "Kotlin",
+      "FullStack web development",
+      "Python",
+      "C",
+      "C++",
       "Java",
+      "Javascript",
       "Firebase",
     ],
-    doc: "https://drive.google.com/file/d/1cFh2xPCDE7S-GG6OIgeW8nhuqaEF4YKV/view?usp=sharing",
+    
   },
 ];
 
@@ -239,101 +232,103 @@ export const education = [
     img: "https://media.licdn.com/dms/image/D5603AQHjyc5u3DYYyQ/profile-displayphoto-shrink_200_200/0/1687411000525?e=2147483647&v=beta&t=hb14rNvy7J5Ct7sIEEDHO8ax9aNYsMvXlSBg8RSdkt0",
     school: "Vellore Institute of Technology, Chennai",
     date: "Sep 2022 - May 2026",
-    grade: "9.29 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Vellore Institute of Technology, Chennai. I have completed 6 semesters and have a CGPA of 9.29. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Hack Club (HC) at VIT, where I am learning and working on exciting projects with a team of talented developers.",
+    grade: "8.69 CGPA",
+    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Vellore Institute of Technology, Chennai. I have completed 6 semesters and have a CGPA of 8.69. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also technical lead at Iothinc Club in VIT, where I am leading and working on exciting projects with a team of talented developers.",
     degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
   },
   {
     id: 1,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-WzevwFrJ6E8m0NMUl4URnH_QH8u3Mi2crg&s",
-    school: "Nalanda Academy, Anantpura",
-    date: "Apr 2020 - June 2022",
-    grade: "93.8%",
-    desc: "I completed my class 12 high school education at Nalanda Academy, Anantpura, where I studied Science with Physical Education.",
-    degree: "CBSE(XII), Science",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmMvq1x8F_-sr9PsaiIoMd_Ada0g9X9MjdtQ&s",
+    school: "Pathfinder Higher Secondary Public School",
+    date: "Apr 2020 - April 2022",
+    grade: "90%",
+    desc: "I completed my class 12 high school education at Pathfinder Higher Secondary Public School, where I studied Science with Statistics as elective.",
+    degree: "WBBSE(XII), Science",
   },
   {
     id: 2,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7n7ZCVPAi9EUAp8jqM-W1uSf3e6vcckcJXg&s",
-    school: "Koncept Public School, Chakradharpur",
-    date: "Apr 2019 - Apr 2020",
-    grade: "93.2%",
-    desc: "I completed my class 10 education at Koncept Public School, Chakradharpur, where I studied Science with Computer Application.",
-    degree: "CBSE(X), Science with Computer",
+    img: "https://media.licdn.com/dms/image/v2/D4D0BAQHp68NWCJuXIg/company-logo_200_200/company-logo_200_200/0/1699192828505?e=2147483647&v=beta&t=zbPirio_HB790KIQiriQNPa6N5hX5igMOBoxVwgsfDY",
+    school: "National High School,Kolkata",
+    date: "Jan 2017 - Mar 2020",
+    grade: "85%",
+    desc: "I completed my class 10 education at National High School,Kolkata, where I studied Science with Computer Application.",
+    degree: "WBSE(X), Science with Computer",
   },
 ];
 
 export const projects = [
   {
     id: 5,
-    title: "AI Image Generation",
+    title: "Chatapp",
     date: "Mar 2025",
     description:
-      " https://i.ytimg.com/vi/fA_tWwPMapM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCqTUB_vilOTG7tW4Y9IbJl9ibm1w",
+      " This is a real-time chat application.People from different mobile can chat with each other simultaneously.",
     image:
-      "https://miro.medium.com/v2/resize:fit:1400/1*V8CHfxxu5sKt4abDiGY1-g.jpeg",
-    tags: ["React Js", "MongoDB", "ExpressJS", "Node JS","Git"],
+      ChatAppImg,
+    tags: ["React Js", "Websocket","Node js","MongoDB", "ExpressJS", "Node JS","Git"],
     category: "web app",
-    github: "https://github.com/aryan2882",
-    webapp: "https://rishav-react-todo.netlify.app/",
+    github: "https://chatapp-wheat-beta.vercel.app/",
+    webapp: "https://chatapp-wheat-beta.vercel.app/",
   },
   {
     id: 4,
     title: "Food Delivery",
-    date: "Feb 2025",
+    date: "May 2024",
     description:
       "It enables users to browse restaurants, order meals online, and have them delivered to their doorstep. It provides features like menu selection, real-time tracking, and multiple payment options. Some platforms also offer discounts, subscriptions, and user reviews for better decision-making.",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbenYM813DUSmtqmE3tkoGT3a_DGroPntW3A&s",
     tags: ["React Js", "MongoDB", "ExpressJS", "Node JS","Git"],
     category: "web app",
-    github: "https://github.com/aryan2882",
+    github: "https://github.com/AnuragChandra16",
     webapp: "https://whatsapp-clone-rishav.web.app",
   },
   {
     id: 1,
-    title: "E-commerce",
-    date: "Jan 2025 - Feb 2025",
+    title: "ResumeBuilder",
+    date: "Jun 2024 - July 2024",
     description:
-      "E-commerce website allows users to buy and sell products or services online. It includes features like product listings, shopping carts, secure payments, and order tracking. Many platforms also offer personalized recommendations, customer reviews, and multiple payment options for a seamless shopping experience.",
+      "This resumebuilder that allows users to create, edit, and manage their resumes easily. Users can choose from various templates and customize their content to suit their needs.",
     image:
-      "https://5.imimg.com/data5/SELLER/Default/2023/5/312281422/DM/CL/ZE/190312336/ecommerce-website.png",
+      Resume,
     tags: [
-      "React Js", "MongoDB", "ExpressJS", "Node JS","Git"
+      "React Js", "Material UI","MongoDB", "ExpressJS", "Node JS","Git"
     ],
     category: "web app",
-    github: "https://github.com/aryan2882",
+    github: "https://resumebuilder-liard.vercel.app/",
     webapp: "https://vexa-app.netlify.app/",
   },
   {
     id: 9,
-    title: "Book-Store",
-    date: "Jan 2025",
+    title: "Analyze-it",
+    date: "Mar 2025",
     description:
-      "A bookstore website lets users browse, purchase, and read books online. It features categories, search filters, and reviews to help users find their preferred books. Some platforms also offer e-books, audiobooks, and recommendations based on reading preferences.",
+      "It provides insights and analytics on user interactions and data trends. It shows various stats of a company throughout the past and help for future.",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD1Z3rwSNoGRWiF1FXSRnbg2OMI9VEw7BwFg&s",
+      Analyzit,
     tags: [
       "React Js",
       "MongoDB",
       "Node Js",
       "Express Js",
+      "Machine learning",
+      "Web scraping"
     ],
-    category: "web app",
-    github: "https://github.com/aryan2882/Book-store",
+    category: "machine learning",
+    github: "https://analyze-it.vercel.app/",
     webapp: "https://trackify-management.netlify.app/",
   },
   {
     id: 2,
-    title: "Virtual Keyboard",
-    date: "Oct 2024 - Nov 2024",
+    title: "Mobile Prediction",
+    date: "Mar 2024 ",
     description:
-      "It allows users to type without a physical keyboard by detecting hand gestures or finger movements through a webcam. It utilizes computer vision techniques like hand tracking and contour detection to recognize key presses. This can be useful for accessibility, touchless interaction, or innovative user interfaces.",
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMMISX_yvVm_5dpv8PSQbqBFPMnxMTO8QNWg&s",
-    tags: ["Python", "OpenCV", "React"],
+      "It predicts the best mobile around or nearest to you price (on flipkart as of March 2024).",
+    image:mobile,
+
+    tags: ["Python", "React js", "Node js","Express JS"],
     category: "machine learning",
-    github: "https://github.com/aryan2882/Virtual_Keyboard",
+    github: "https://mobile-predictor.vercel.app/",
     webapp: "https://brain-tumor.netlify.app/",
     
   },
@@ -346,7 +341,7 @@ export const projects = [
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM4hsj2tDL2OeQVAsF6Jpa9mOVVOBDZdjeCg&s",
     tags: ["Kotlin", "Flutter", "MaterialUI", "Firebase"],
-    category: "android app",
+    category: "web app",
     github: "https://github.com/aryan2882/spot_finder",
     webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
   },
@@ -360,88 +355,36 @@ export const projects = [
       "https://miro.medium.com/v2/resize:fit:1200/1*5girQGl53nf3yKfsH4qraA.jpeg",
     tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
     category: "web app",
-    github: "https://github.com/aryan2882/payment",
+    github: "https://github.com/AnuragChandra16/Pg",
     webapp: "https://podstream.netlify.app/",
   },
   {
     id: 8,
-    title: "Hand Tracking and Controlling",
-    date: "Jun 2024 - July 2024",
+    title: "Exercise",
+    date: "April 2025",
     description:
-      "Hand tracking using OpenCV detects and follows hand movements in real time using a webcam. It utilizes computer vision techniques like contour detection and machine learning models to recognize gestures. This technology is used in virtual keyboards, sign language interpretation, and interactive applications.",
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpKepXq47u-FZMI7j5S_nc-FNKX7njC483qw&s",
-    tags: ["Python", "OpenCV","React"],
+      "Detects correct posture for squat and push-ups .Count the reps on correct postures and provides feedback on form",
+    image:Ex,
+    tags: ["Python", "Mediapipe","HTML","CSS"],
     category: "machine learning",
-    github: "https://github.com/aryan2882/Handtracking",
+    github: "https://exercise-il39.onrender.com/",
     webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
   },
   {
     id: 10,
     title: "Expense Tracker",
-    date: "Jan 2024 - Feb 2024",
+    date: "Jun 2024 - July 2024",
     description:
       "An expense tracker app helps users manage their finances by recording income and expenses. It provides features like budget setting, category-wise spending analysis, and visual reports. Some apps also offer reminders, cloud syncing, and multi-user access for better financial planning.",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBIid55YWxazuKB-zlJhzV92rnv47ef62zWQ&s",
-    tags: ["Kotlin", "Flutter", "MaterialUI", "Firebase"],
-    category: "android app",
-    github: "https://github.com/aryan2882/expense_tracker",
+     Expense,
+    tags: ["React js", "Mongodb", "MaterialUI", "Nodejs","Express JS"],
+    category: "web app",
+    github: "https://expense-tracker-azure-eta.vercel.app/",
     webapp: "https://github.com/rishavchanda/Job-finder-App",
   },
   
-  {
-    id: 11,
-    title: "Cold Storage Management",
-    date: "Oct 2023 - Nov 2023",
-    description:
-      "A code storage website allows users to save, organize, and share their code snippets online. It provides features like syntax highlighting, version control, and collaboration tools. Some platforms also offer privacy settings, cloud backup, and integration with development environments.",
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU8NnXSMvZ75_6y5hp13QAWj4fFNPhWwksIA&s",
-    tags: [
-      "React Js",
-      "MySQL",
-      "Node Js",
-      "Express Js",
-    ],
-    category: "web app",
-    github: "https://github.com/aryan2882/COLD_STORAGE",
-    webapp: "https://decisionhub.netlify.app/",
-  },
   
-  
-  
-  
-  
-  {
-    id: 12,
-    title: "Phising Website Detection",
-    date: "Aug 2023",
-    description:
-      "A phishing website detection system using machine learning analyzes website features to identify fraudulent sites. It uses models trained on URL patterns, content analysis, and network behavior to detect phishing attempts. This helps users stay protected from cyber threats and online scams.",
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvtYXJKHdc-82QrvrfGdcdoIc24cgyLUKUWQ&s",
-    tags: ["Python", "Keras","React"],
-    category: "machine learning",
-    github: "https://github.com/aryan2882/Phisingwebsite-Detector",
-    webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-  },
-  
-  
-  
-  {
-    id: 7,
-    title: "TaskMate",
-    date: "Apr 2023 - May 2023",
-    description:
-      "A Task Mate app helps users manage tasks efficiently by creating, tracking, and organizing to-do lists. It includes features like reminders, priority settings, and collaboration options. Some apps also offer progress tracking, cloud sync, and AI-based suggestions for better productivity.",
-    image:
-      "https://s3-alpha.figma.com/hub/file/2403886540/4e009bb7-679e-4ac2-92b8-e55b73a67b11-cover.png",
-    tags: ["Kotlin", "Flutter", "MaterialUI", "Firebase"],
-    category: "android app",
-    github: "https://github.com/aryan2882/TaskMate",
-    webapp: "https://github.com/rishavchanda/Quiz-Earn",
-  },
   
   
 ];
