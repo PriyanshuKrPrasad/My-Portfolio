@@ -142,7 +142,7 @@ const Contact = () => {
           Feel free to reach out to me for any questions or opportunities!
         </Desc>
         {/* {sent ? ( */}
-          <SuccessMessage>Thank you! Your message has been sent. ✅</SuccessMessage>
+          <SuccessMessage></SuccessMessage>
         
           <ContactForm ref={form} onSubmit={handleSubmit}>
             <ContactTitle>Email Me 🚀</ContactTitle>
