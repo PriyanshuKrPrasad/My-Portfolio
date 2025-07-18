@@ -1,12 +1,13 @@
-import ChatAppImg from "../images/Chatapp.png";
-
-import Analyzit from "../images/Analyzeit.png";
-import Ex from "../images/Exercise.png";
-import Expense from "../images/Expensetracker.png";
-import Resume from "../images/Resumebuilder.png";
-import mobile from "../images/mobileprediction.png";
+import character from "../images/character.png";
+import fitness from "../images/fitness.png";
+import hand from "../images/hand.png";
+import event from "../images/event Countdown.png";
+import music from "../images/music.png";
+import product from "../images/prodect.png";
+import tiktaktoe from "../images/tiktaktoe.png";
+import password from "../images/password.png";
 export const Bio = {
-  name: "Anurag Chandra",
+  name: "Priyanshu Kumar Prasad ",
   roles: [  
     
     "Full Stack Web Developer",
@@ -15,13 +16,13 @@ export const Bio = {
   ],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
-  github: "https://github.com/AnuragChandra16",
+  github: "https://github.com/PriyanshuKrPrasad",
   resume:
-    "https://drive.google.com/file/d/1_B6UH0tzrwANmCqKcQp4LN-ZabclxnWh/view?usp=sharing",
-  linkedin: "https://www.linkedin.com/in/anurag-chandra-485876267/",
-  twitter: "https://x.com/AnuragChan37994",
-  insta: "https://www.instagram.com/anurag_16_01/",
-  facebook: "https://www.facebook.com/",
+    "https://drive.google.com/file/d/1ni0i3jBRQ44RbuSoK8NH-nM3cgRmY-VO/view?usp=drive_link",
+  linkedin: "https://www.linkedin.com/in/priyanshu-kr-prasad-b962a9244/",
+  twitter: "https://x.com/",
+  insta: "https://www.instagram.com/priyanshukrprasad/",
+  facebook: "https://www.facebook.com/" ,
 };
 
 export const skills = [
@@ -93,26 +94,26 @@ export const skills = [
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
       },
       {
-        name: "Firebase",
-        image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
+        name: "API's Intregrations",
+        image: "https://www.manchesterdigital.com/storage/10104/What-is-API-and-API-Integration-Manc-Digital-feat.png",
       },
     ],
   },
-  {
-    title: "DevOps",
-    skills: [
-      {
-        name: "AWS",
-        image:
-          "https://download.logo.wine/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.png",
-      },
-      {
-        name: "Google Cloud",
-        image:
-          "https://static-00.iconduck.com/assets.00/google-cloud-platform-logo-icon-2048x1824-pg4wzspq.png",
-      },
-    ],
-  },
+  // {
+  //   title: "DevOps",
+  //   skills: [
+  //     {
+  //       name: "AWS",
+  //       image:
+  //         "https://download.logo.wine/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.png",
+  //     },
+  //     {
+  //       name: "Google Cloud",
+  //       image:
+  //         "https://static-00.iconduck.com/assets.00/google-cloud-platform-logo-icon-2048x1824-pg4wzspq.png",
+  //     },
+  //   ],
+  // },
   // {
   //   title: "Android",
   //   skills: [
@@ -142,15 +143,15 @@ export const skills = [
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
       },
     
+      // {
+      //   name: "Jupyter",
+      //   image:
+      //     "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1767px-Jupyter_logo.svg.png",
+      // },
       {
-        name: "Jupyter",
+        name: "Google API's",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1767px-Jupyter_logo.svg.png",
-      },
-      {
-        name: "Google Colab",
-        image:
-          "https://assets.stickpng.com/images/63c2e4c9c4baad4ce22bf9ef.png",
+          "https://datascientest.com/en/files/2024/03/API-Google-Cloud-Platform.png",
       },
       {
         name: "Sk Learn Kit",
@@ -190,11 +191,11 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv_5Nuphv0sUr5p6S3mvKCW0e8FFO03lsVDUpiWPmbvjgEBqMNrFrnJBozK4DYD75U4Qw&usqp=CAU",
-    role: "Website Developer Intern",
-    company: "Zidio Development",
-    date: "July 2024 - September 2024",
-    desc: "This Website development internship focuses on developing responsive and user-friendly web applications, utilizing modern frameworks and technologies. I created a dynamic ResumeBuilder over here. My project was selected one of best website among other interns",
+    img: "https://media.licdn.com/dms/image/v2/C4E0BAQGaWBsr2UhEag/company-logo_100_100/company-logo_100_100/0/1630615040675/euphoria_genx_logo?e=2147483647&v=beta&t=SquYdk85w0W2_Ko4qQVUBusQOn5bUM3NecOfU7d35hw",
+    role: "MERN Stack Development",
+    company: "EuphoriaGenX",
+    date: "Augest 2024 - February 2024",
+    desc: "I’m a passionate Full Stack Developer with expertise in the MERN Stack (MongoDB, Express.js, React.js, Node.js), along with Next.js, TypeScript, and Tailwind CSS by myself. I completed an intensive MERN Stack course at Euphoria GenX, followed by a 2–3 month internship where I worked on real-world projects like fitness trackers, inventory systems, and on-demand service platforms. I gained hands-on experience in API integration, secure authentication (JWT, bcrypt), and deployment on Vercel, Render, and Heroku. I focus on writing clean, scalable code and building responsive, user-friendly web applications.",
     skills: [
       "React JS",
       "Mongo db",
@@ -202,56 +203,58 @@ export const experiences = [
       "Express Js",
       "HTML",
       "CSS",
-      "Vercel/Render"
+      "Vercel/Render",
+      "Next.js",
+      "TypeScript"
     ],
     
   },
-  {
-    id: 1,
-    img: "https://avatars.githubusercontent.com/u/110592010?s=280&v=4",
-    role: "Technical Lead",
-    company: "IOThinc VIT Chennai",
-    date: "Oct 2024 - Present",
-    desc: "Here I led a team of developers to design and implement innovative IoT solutions. I contribute to both IoT product designs and software development",
-    skills: [
-      "FullStack web development",
-      "Python",
-      "C",
-      "C++",
-      "Java",
-      "Javascript",
-      "Firebase",
-    ],
+  // {
+  //   id: 1,
+  //   img: "https://avatars.githubusercontent.com/u/110592010?s=280&v=4",
+  //   role: "Technical Lead",
+  //   company: "IOThinc VIT Chennai",
+  //   date: "Oct 2024 - Present",
+  //   desc: "Here I led a team of developers to design and implement innovative IoT solutions. I contribute to both IoT product designs and software development",
+  //   skills: [
+  //     "FullStack web development",
+  //     "Python",
+  //     "C",
+  //     "C++",
+  //     "Java",
+  //     "Javascript",
+  //     "Firebase",
+  //   ],
     
-  },
+  // },
 ];
 
 export const education = [
   {
     id: 0,
-    img: "https://media.licdn.com/dms/image/D5603AQHjyc5u3DYYyQ/profile-displayphoto-shrink_200_200/0/1687411000525?e=2147483647&v=beta&t=hb14rNvy7J5Ct7sIEEDHO8ax9aNYsMvXlSBg8RSdkt0",
-    school: "Vellore Institute of Technology, Chennai",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgnYloHh7VGnq3HcxfwdWQRoUo3CxiA7FKCQ&s",
+    school: "Regent Institute of Science & Technology",
     date: "Sep 2022 - May 2026",
-    grade: "8.69 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Vellore Institute of Technology, Chennai. I have completed 6 semesters and have a CGPA of 8.69. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also technical lead at Iothinc Club in VIT, where I am leading and working on exciting projects with a team of talented developers.",
-    degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
+    grade: "8.4 CGPA",
+    desc: "I have completed a Diploma in Computer Science and Technology from Regent Institute of Science and Technology with a CGPA of 8.5.During my diploma, I studied subjects like Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, which helped me build a strong foundation in computer science.I have also taken initiative beyond academics by working on real-world projects and contributing to various technical activities. I actively participate in team-based development, showing leadership, problem-solving, and hands-on coding skills through various collaborative projects.",
+    degree: "Diploma in Computer Science and Engineering ",
   },
   {
     id: 1,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmMvq1x8F_-sr9PsaiIoMd_Ada0g9X9MjdtQ&s",
-    school: "Pathfinder Higher Secondary Public School",
+    img: "https://content.jdmagicbox.com/comp/kolkata/56/033p5009156/catalogue/m-g-rungta-academy-ballygunge-kolkata-schools-2ecceme-250.jpg",
+    school: "M.G Rungta Academy,Kolkata",
     date: "Apr 2020 - April 2022",
-    grade: "90%",
-    desc: "I completed my class 12 high school education at Pathfinder Higher Secondary Public School, where I studied Science with Statistics as elective.",
+    grade: "55%",
+    desc: "I completed my class 12 high school education at M.G Rungta Academy Higher Secondary School, where I studied Science with Statistics as elective.",
     degree: "WBBSE(XII), Science",
   },
   {
     id: 2,
-    img: "https://media.licdn.com/dms/image/v2/D4D0BAQHp68NWCJuXIg/company-logo_200_200/company-logo_200_200/0/1699192828505?e=2147483647&v=beta&t=zbPirio_HB790KIQiriQNPa6N5hX5igMOBoxVwgsfDY",
-    school: "National High School,Kolkata",
-    date: "Jan 2017 - Mar 2020",
-    grade: "85%",
-    desc: "I completed my class 10 education at National High School,Kolkata, where I studied Science with Computer Application.",
+    img: "https://content.jdmagicbox.com/comp/kolkata/56/033p5009156/catalogue/m-g-rungta-academy-ballygunge-kolkata-schools-2ecceme-250.jpg",
+    school: "M.G Rungta Academy,Kolkata",
+    date: "Jan 2013 - Mar 2020",
+    grade: "50%",
+    desc: "I completed my class 10 education at M.G Rungta Academy,Kolkata, where I studied Science with Computer Application.",
     degree: "WBSE(X), Science with Computer",
   },
 ];
@@ -259,133 +262,129 @@ export const education = [
 export const projects = [
   {
     id: 5,
-    title: "Chatapp",
+    title: "Project Recommender System",
     date: "Mar 2025",
     description:
-      " This is a real-time chat application.People from different mobile can chat with each other simultaneously.",
+      " This is a real-time Product Recommendation System that suggests personalized products to users based on their preferences and behavior. It allows users on different devices to receive tailored product recommendations simultaneously, enhancing the shopping experience.",
     image:
-      ChatAppImg,
-    tags: ["React Js", "Websocket","Node js","MongoDB", "ExpressJS", "Node JS","Git"],
-    category: "web app",
-    github: "https://chatapp-wheat-beta.vercel.app/",
-    webapp: "https://chatapp-wheat-beta.vercel.app/",
+      product,
+  tags: ["React Js", "Google API's ","Node js","localStorage", "ExpressJS", "Node JS","Git"],
+    category: "machine learning",
+    github: "https://product-recommendation-system-v2uc.vercel.app/",
+    webapp: "https://github.com/PriyanshuKrPrasad/Product-Recommendation-System.git",
   },
   {
     id: 4,
-    title: "Food Delivery",
+    title: "AI-Password Adviser",
     date: "May 2024",
     description:
-      "It enables users to browse restaurants, order meals online, and have them delivered to their doorstep. It provides features like menu selection, real-time tracking, and multiple payment options. Some platforms also offer discounts, subscriptions, and user reviews for better decision-making.",
+      "It helps users create strong, secure passwords using AI-powered suggestions based on best security practices. It analyzes password strength in real time, warns about weak or reused passwords, and recommends improvements. Some platforms also offer features like breach alerts, password history, and personalized security tips to enhance overall online safety.",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbenYM813DUSmtqmE3tkoGT3a_DGroPntW3A&s",
-    tags: ["React Js", "MongoDB", "ExpressJS", "Node JS","Git"],
-    category: "web app",
-    github: "https://github.com/AnuragChandra16",
-    webapp: "https://whatsapp-clone-rishav.web.app",
+      password,
+    tags: ["React Js", "localStorage", "API Intregration", "ExpressJS", "Node JS","Git"],
+    category: "machine learning",
+    github: "https://ai-password-adviser.vercel.app/",
+    webapp: "https://github.com/PriyanshuKrPrasad/ai-password-adviser.git",
   },
   {
     id: 1,
-    title: "ResumeBuilder",
-    date: "Jun 2024 - July 2024",
+    title: "Music_Recommender",
+    // date: "Jun 2024 - July 2024",
     description:
-      "This resumebuilder that allows users to create, edit, and manage their resumes easily. Users can choose from various templates and customize their content to suit their needs.",
+      "This music recommender allows users to discover, explore, and enjoy personalized music suggestions. It analyzes user preferences and listening history to recommend songs, albums, or playlists that match their taste. Users can also filter by genre, mood, or artist to enhance their listening experience.",
     image:
-      Resume,
+      music,
     tags: [
-      "React Js", "Material UI","MongoDB", "ExpressJS", "Node JS","Git"
+      "React Js", "Material UI", "localStorage", "ExpressJS", "Node JS","Git"
     ],
     category: "web app",
-    github: "https://resumebuilder-liard.vercel.app/",
-    webapp: "https://vexa-app.netlify.app/",
+    github: "https://music-recommmender-system-j2ve.onrender.com/",
+    webapp: "https://github.com/PriyanshuKrPrasad/Music_Recommmender_System.git",
   },
   {
     id: 9,
-    title: "Analyze-it",
-    date: "Mar 2025",
+    title: "Tik-Tak-Toe Game",
+    date: "Mar 2024",
     description:
-      "It provides insights and analytics on user interactions and data trends. It shows various stats of a company throughout the past and help for future.",
+      "It is an interactive Tic-Tac-Toe game that allows users to play in real-time, either against another player or the computer. It features a simple and intuitive interface, tracks player turns, and determines the winner or a draw automatically, making it a fun and engaging way to pass time.",
     image:
-      Analyzit,
+      tiktaktoe,
     tags: [
       "React Js",
       "MongoDB",
       "Node Js",
       "Express Js",
-      "Machine learning",
-      "Web scraping"
+      "Machine learning"
+      
     ],
-    category: "machine learning",
-    github: "https://analyze-it.vercel.app/",
-    webapp: "https://trackify-management.netlify.app/",
+    category: "web app",
+    github: "https://priyanshukrprasad.github.io/Tik-Tak-Toe/",
+    webapp: "https://github.com/PriyanshuKrPrasad/Tik-Tak-Toe.git",
   },
   {
     id: 2,
-    title: "Mobile Prediction",
-    date: "Mar 2024 ",
+    title: "Charactor Changer ",
+    date: "Mar 2023 ",
     description:
-      "It predicts the best mobile around or nearest to you price (on flipkart as of March 2024).",
-    image:mobile,
+      "It allows users to convert or modify text by changing characters into various styles or formats. Whether it's converting text to uppercase, lowercase, symbols, or fancy fonts, the tool offers quick and creative transformations for fun or stylistic purposes.",
+    image:character,
 
-    tags: ["Python", "React js", "Node js","Express JS"],
-    category: "machine learning",
-    github: "https://mobile-predictor.vercel.app/",
-    webapp: "https://brain-tumor.netlify.app/",
+    tags: ["HTML", "CSS", "Node js","Express JS","Javascript", "APIs"],
+    category: "web app",
+    github: "https://priyanshukrprasad.github.io/Character-changer-/",
+    webapp: "https://github.com/PriyanshuKrPrasad/Character-changer-.git",
     
   },
   {
     id: 3,
-    title: "Spot-Finder",
-    date: "Sep 2024 - Oct 2024",
+    title: "Event-Countdown",
+    date: "july 2023",
     description:
-      "A spot finder app for parking helps users locate available parking spaces in real time. It uses GPS, sensors, or user updates to show free and occupied spots on a map. Some apps also provide navigation, booking options, and payment integration for a hassle-free parking experience.",
+      "An event countdown app helps users track upcoming events by displaying the remaining time in days, hours, minutes, and seconds. Users can create personalized countdowns for birthdays, meetings, holidays, or special occasions. Some apps also offer reminders, customizable themes, and sharing options to keep users informed and excited as the event approaches.",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM4hsj2tDL2OeQVAsF6Jpa9mOVVOBDZdjeCg&s",
-    tags: ["Kotlin", "Flutter", "MaterialUI", "Firebase"],
+      event,
+    tags: ["HTML", "CSS", "Node js", "Express JS", "Javascript", "EmailJS / Nodemailer"],
     category: "web app",
-    github: "https://github.com/aryan2882/spot_finder",
-    webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
+    github: "https://github.com/PriyanshuKrPrasad/Event-Countdown.git",
+    webapp: "https://github.com/PriyanshuKrPrasad/Event-Countdown.git",
   },
-  {
-    id: 0,
-    title: "Payment",
-    date: "Sep 2024",
-    description:
-      "A payment gateway website using Razorpay enables businesses to accept online payments securely. It supports multiple payment methods like UPI, credit/debit cards, and wallets. The platform also offers features like fraud detection, recurring payments, and instant settlements for smooth transactions.",
-    image:
-      "https://miro.medium.com/v2/resize:fit:1200/1*5girQGl53nf3yKfsH4qraA.jpeg",
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
-    category: "web app",
-    github: "https://github.com/AnuragChandra16/Pg",
-    webapp: "https://podstream.netlify.app/",
-  },
+  // {
+  //   id: 0,
+  //   title: "Payment",
+  //   date: "Sep 2024",
+  //   description:
+  //     "A payment gateway website using Razorpay enables businesses to accept online payments securely. It supports multiple payment methods like UPI, credit/debit cards, and wallets. The platform also offers features like fraud detection, recurring payments, and instant settlements for smooth transactions.",
+  //   image:
+  //     "https://miro.medium.com/v2/resize:fit:1200/1*5girQGl53nf3yKfsH4qraA.jpeg",
+  //   tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
+  //   category: "web app",
+  //   github: "https://github.com/AnuragChandra16/Pg",
+  //   webapp: "https://podstream.netlify.app/",
+  // },
   {
     id: 8,
-    title: "Exercise",
+    title: "Hand-Gesture-Detection",
     date: "April 2025",
     description:
-      "Detects correct posture for squat and push-ups .Count the reps on correct postures and provides feedback on form",
-    image:Ex,
-    tags: ["Python", "Mediapipe","HTML","CSS"],
+      "Detects and recognizes various hand gestures in real time using computer vision. It identifies specific hand movements and maps them to actions or commands, enabling gesture-based interaction. The system provides accurate tracking and can be used for controlling devices, navigating interfaces, or enhancing accessibility.",
+    image:hand  ,
+    tags: ["Python", "Mediapipe","OpenCV","HTML","CSS"],
     category: "machine learning",
-    github: "https://exercise-il39.onrender.com/",
-    webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
+    github: "https://github.com/PriyanshuKrPrasad/Hand-Gesture-Detection-.git",
+    // webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
   },
   {
     id: 10,
-    title: "Expense Tracker",
+    title: "Fitness Tracker",
     date: "Jun 2024 - July 2024",
     description:
-      "An expense tracker app helps users manage their finances by recording income and expenses. It provides features like budget setting, category-wise spending analysis, and visual reports. Some apps also offer reminders, cloud syncing, and multi-user access for better financial planning.",
-    image:
-     Expense,
-    tags: ["React js", "Mongodb", "MaterialUI", "Nodejs","Express JS"],
+      "A fitness tracker app helps users monitor their physical activity and overall health by tracking workouts, steps, calories burned, and progress over time. It provides features like workout logging, daily goals, performance analytics, and personalized recommendations. Some apps also include reminders, cloud syncing, and integration with wearable devices to support consistent and goal-oriented fitness routines.",
+    image:fitness,
+    tags: ["HTML", "CSS","JavaScript","Node.js"],
     category: "web app",
-    github: "https://expense-tracker-azure-eta.vercel.app/",
-    webapp: "https://github.com/rishavchanda/Job-finder-App",
+    github: "",
+    webapp: "",
   },
-  
-  
-  
-  
+
 ];
 

@@ -84,7 +84,7 @@ const Footer = () => {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Anurag Chandra</Logo>
+        <Logo>Mr. Priyanshu Kumar</Logo>
         <Nav>
           <NavLink href="#About">About</NavLink>
           <NavLink href="#Skills">Skills</NavLink>
@@ -106,7 +106,7 @@ const Footer = () => {
             <Instagram />
           </SocialMediaIcon>
         </SocialMediaIcons>
-        <Copyright>&copy; 2025 Anurag Chandra. All rights reserved.</Copyright>
+        <Copyright>&copy; 2025 Priyanshu Kumar Prasad. All rights reserved.</Copyright>
       </FooterWrapper>
     </FooterContainer>
   );
