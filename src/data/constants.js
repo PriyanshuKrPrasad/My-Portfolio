@@ -6,6 +6,8 @@ import music from "../images/music.png";
 import product from "../images/prodect.png";
 import tiktaktoe from "../images/tiktaktoe.png";
 import password from "../images/password.png";
+import admin from "../images/admin.png";
+import pos from "../images/pos.png";
 export const Bio = {
   name: "Priyanshu Kumar Prasad ",
   roles: [  
@@ -18,7 +20,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/PriyanshuKrPrasad",
   resume:
-    "https://drive.google.com/file/d/1ni0i3jBRQ44RbuSoK8NH-nM3cgRmY-VO/view?usp=drive_link",
+    "https://drive.google.com/file/d/18Y7H7ju00oOlTLFjF1h_W4qXFr-oegaC/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/priyanshu-kr-prasad-b962a9244/",
   twitter: "https://x.com/",
   insta: "https://www.instagram.com/priyanshukrprasad/",
@@ -235,7 +237,7 @@ export const education = [
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgnYloHh7VGnq3HcxfwdWQRoUo3CxiA7FKCQ&s",
     school: "Regent Institute of Science & Technology",
     date: "Sep 2022 - May 2026",
-    grade: "8.4 CGPA",
+    grade: "8.1 CGPA",
     desc: "I have completed a Diploma in Computer Science and Technology from Regent Institute of Science and Technology with a CGPA of 8.5.During my diploma, I studied subjects like Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, which helped me build a strong foundation in computer science.I have also taken initiative beyond academics by working on real-world projects and contributing to various technical activities. I actively participate in team-based development, showing leadership, problem-solving, and hands-on coding skills through various collaborative projects.",
     degree: "Diploma in Computer Science and Engineering ",
   },
@@ -261,8 +263,36 @@ export const education = [
 
 export const projects = [
   {
-    id: 5,
-    title: "Project Recommender System",
+    id: 6,
+    title: "Full Stack Admin Application",
+    date: "April 2026",
+    description:
+      " AuthKit is a full-stack JWT authentication system built to production standards. The backend is a Node.js + Express REST API connected to MySQL through Prisma ORM, handling secure user registration and login with bcrypt hashing, stateless JWT tokens, and role-based access control. The frontend is a Next.js 14 App Router application with edge-middleware route protection, an Axios service layer with automatic token management, and a polished multi-tab dashboard. An admin panel lets ADMIN-role users view real-time user statistics, manage roles, search and paginate all accounts, and delete users — all protected by a double-gated API. The project ships with an automated setup script, a one-command database migration, and a full documentation site.",
+    image:
+      admin,
+  tags: ["React Js", "Node js","MySQL", "ExpressJS", "Node JS","Git"],
+    category: "web app",
+    github: "https://fullstackwebsite01.vercel.app/login",
+    webapp: "https://github.com/PriyanshuKrPrasad/Full-Stack-Application.git",
+  },
+
+  {
+    id: 7,
+    title: "POS-Application-Prototype-",
+    date: "April 2026",
+    description:
+      " RetailPOS is a full-stack Point of Sale system built with React 18 (as a PROTOTYPE) , TypeScript, Vite, and Supabase. It includes POS checkout, product and inventory management, analytics dashboard, store settings, integrations, and secure authentication with RLS. This is only a PROTOTYPE developed as an industrial project and is not intended for production use.",
+    image:
+      pos,
+  tags: ["React Js", "Node js","MySQL", "ExpressJS", "Node JS","Git"],
+    category: "web app",
+    github: "https://github.com/PriyanshuKrPrasad/POS-Application-Prototype-.git",
+    webapp: "https://github.com/PriyanshuKrPrasad/POS-Application-Prototype-.git",
+  },
+
+  {
+    id: 5,  
+    title: "Product Recommender System",
     date: "Mar 2025",
     description:
       " This is a real-time Product Recommendation System that suggests personalized products to users based on their preferences and behavior. It allows users on different devices to receive tailored product recommendations simultaneously, enhancing the shopping experience.",
